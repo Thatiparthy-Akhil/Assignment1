@@ -1,0 +1,63 @@
+body {
+    margin: 20px;
+  }
+  
+  div {
+    width: 100%;
+    height: 50vh;
+  }
+
+
+.image{
+    width: 100%;
+  height: 50vh;
+  outline: 0px;
+}
+
+
+ nav ul{
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+     padding: 0.5%; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 100;
+    font-size: 50px;
+    
+    
+} 
+
+.column {
+    /* border: 2px solid black; */
+    padding: 3px;
+    float: left;
+    width: 25%;
+   
+   
+  }
+  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+    margin: 70px;
+    
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 2px;
+   
+  }
